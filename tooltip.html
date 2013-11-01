@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="animatedToolTip.js"></script>
+<link href="animatedToolTip.css" rel="stylesheet" />
+<script>
+jQuery(document).ready(function(){
+jQuery("a").animatedToolTip({content:'Un produit pour vous.<br>Cliquez ici pour voir plus de details'})
+});
+</script>
+</head>
+<body>
+
+<div style="position:relative">
+<img src="http://farm8.staticflickr.com/7069/6815445970_64bb2dff98_c.jpg" />
+<a style="position:absolute;display:block;width:100px;height:50px;border-radius:50%;border:1px solid #CCC; background-color:rgba(0,0,0,.2);left:10%;top:20%;"></a>
+</div>
+</body>
+</html>
